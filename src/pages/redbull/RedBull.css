@@ -1,0 +1,9 @@
+.image {
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    background-image: url("/images/IMG-6518.jpg");
+    background-size: cover;
+    /* border-radius: 50%; */
+    background-position: center;  /* Optional: Centers the image */
+}

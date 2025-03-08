@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
+
+
+.heading{
+text-align: center;
+color:#ff1493;
+font-family: 'pacifio', sans-serif;
+font-size: 3rem;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.image {
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    background-image: url("/images/IMG-6518.jpg");
+    background-size: cover;
+    /* border-radius: 50%; */
+    background-position: center;  /* Optional: Centers the image */
+}
+.image:hover{
+  box-shadow: 0 0 5px 5px #b34490 inset;
+}
