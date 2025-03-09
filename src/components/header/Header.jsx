@@ -4,19 +4,20 @@ import Nav from "../nav/Nav"
 import "./Header.css"
 
 // Exporting functional component
-export default function Header(){
+export default function Header({title}){
 
   return (
 
       <div className="headerBox">
         <header>
           {/* Image link to homepage */}
-          {/* <div className="logoLink">
+          { <div className="logoLink">
             <Link to="/"><img className="logo" src="./dist/images/Daisy.png" alt="" /></Link>
-          </div> */}
+          </div> }
+          <h1>{title}</h1> {/*Dinamically renders title*/}
           <Nav />
         </header>
       </div>
 
-  )
+  );
 }
