@@ -6,7 +6,6 @@ import FerrariPage from "./pages/ferrari/Ferrari.jsx";
 import McLarenPage from "./pages/mclaren/McLaren.jsx";
 import MercedesPage from "./pages/mercedes/Mercedes.jsx";
 import RedBullPage from "./pages/redbull/RedBull.jsx";
-import Footer from "./components/footer/Footer.jsx";
 import Layout from "./components/layout/Layout.jsx"; // Import Layout component
 
 export default function App() {
@@ -62,7 +61,6 @@ export default function App() {
           }
         />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

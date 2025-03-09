@@ -21,7 +21,21 @@ function Nav() {
       >
         Home
       </NavLink>
-
+          <NavLink
+            to="/astonmartin"
+            style={({ isActive }) => {
+              return isActive
+                ? {
+                    color: "var(--blue)",
+                    filter:
+                      "drop-shadow(3px 3px 2px var(--black)) drop-shadow(-1px -1px 3px var(--pink))",
+                  }
+                : {};
+            }}
+            className="navElement"
+          >
+            Aston Martin
+          </NavLink>
       <NavLink
         to="/redbull"
         style={({ isActive }) => {
@@ -66,7 +80,9 @@ function Nav() {
             : {};
         }}
         className="navElement"
-      >
+
+        >
+          
         Ferrari
       </NavLink>
 
@@ -86,21 +102,6 @@ function Nav() {
         Mercedes
       </NavLink>
 
-      <NavLink
-        to="/astonmartin"
-        style={({ isActive }) => {
-          return isActive
-            ? {
-                color: "var(--blue)",
-                filter:
-                  "drop-shadow(3px 3px 2px var(--black)) drop-shadow(-1px -1px 3px var(--pink))",
-              }
-            : {};
-        }}
-        className="navElement"
-      >
-        Aston Martin
-      </NavLink>
     </nav>
   );
 }

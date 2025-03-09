@@ -1,17 +1,23 @@
 /* Header.css */
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
+
+/* heading is the formula one title use this for youre font when you find the class name */
+.headerTitle{
+    text-align: center;
+    color:#ff1493;
+    font-family: 'pacifio', sans-serif;
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .headerBox {
     text-align: center;
     padding: 20px;
   }
-  
-  .headerTitle {
-    font-size: 2rem;
-    color: #ff0066;  /* pink color */
-    font-family: "Arial", sans-serif;
-    margin-bottom: 10px;
-  }
-  
   nav {
     margin-top: 10px;
   }

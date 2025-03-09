@@ -13,13 +13,13 @@
     margin-top: 20px;
 }
 
-.car-image {
+.image {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     transition: box-shadow 0.3s ease;
 }
 
-.car-image:hover {
+.image:hover {
     box-shadow: 0 0 20px 10px #b34490;
 }
