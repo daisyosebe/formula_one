@@ -15,7 +15,7 @@ export default function App() {
         <Route
           path="/"
           element={
-            <Layout navbarPosition="bottom" title="Formula One">
+            <Layout navbarPosition="bottom" title="Formula One" theme="home">
               <HomePage />
             </Layout>
           }
@@ -23,7 +23,7 @@ export default function App() {
         <Route
           path="/AstonMartin"
           element={
-            <Layout navbarPosition="top" title="Aston Martin">
+            <Layout navbarPosition="top" title="Aston Martin" theme="astonmartin">
               <AstonMartinPage />
             </Layout>
           }
@@ -31,7 +31,7 @@ export default function App() {
         <Route
           path="/Ferrari"
           element={
-            <Layout navbarPosition="top" title="Ferrari">
+            <Layout navbarPosition="top" title="Ferrari" theme="ferrari">
               <FerrariPage />
             </Layout>
           }
@@ -39,7 +39,7 @@ export default function App() {
         <Route
           path="/McLaren"
           element={
-            <Layout navbarPosition="top" title="McLaren">
+            <Layout navbarPosition="top" title="McLaren" theme="mclaren">
               <McLarenPage />
             </Layout>
           }
@@ -47,7 +47,7 @@ export default function App() {
         <Route
           path="/Mercedes"
           element={
-            <Layout navbarPosition="top" title="Mercedes">
+            <Layout navbarPosition="top" title="Mercedes" theme="mercedes">
               <MercedesPage />
             </Layout>
           }
@@ -55,7 +55,7 @@ export default function App() {
         <Route
           path="/RedBull"
           element={
-            <Layout navbarPosition="top" title="Red Bull">
+            <Layout navbarPosition="top" title="Red Bull" theme="redbull">
               <RedBullPage />
             </Layout>
           }
