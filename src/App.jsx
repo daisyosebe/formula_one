@@ -11,8 +11,8 @@ import Layout from "./components/layout/Layout.jsx"; // Import Layout component
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
+<BrowserRouter basename="/formula_one">
+<Routes>
         <Route
           path="/"
           element={

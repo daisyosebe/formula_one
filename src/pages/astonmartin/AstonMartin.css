@@ -1,9 +1,25 @@
-.image {
-    margin-top: 10px;
-    height: 200px;
-    width: 100%;
-    background-image: url("/images/IMG-6518.jpg");
-    background-size: cover;
-    /* border-radius: 50%; */
-    background-position: center;  /* Optional: Centers the image */
+.aston-martin-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.aston-title {
+    color: #b34490;
+    font-family: 'Cool Font', sans-serif;
+    font-size: 36px;
+}
+
+.car-image-container {
+    margin-top: 20px;
+}
+
+.car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.car-image:hover {
+    box-shadow: 0 0 20px 10px #b34490;
 }

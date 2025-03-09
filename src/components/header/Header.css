@@ -1,0 +1,30 @@
+/* Header.css */
+
+.headerBox {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .headerTitle {
+    font-size: 2rem;
+    color: #ff0066;  /* pink color */
+    font-family: "Arial", sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  .navElement {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .navElement:hover {
+    color: #ff0066;
+  }
+  
