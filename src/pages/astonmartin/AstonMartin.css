@@ -2,7 +2,10 @@
     text-align: center;
     padding: 20px;
 }
-
+.layout.astonmartin{
+    background-color: #0f7948;
+    color: #92ceb2;
+  }
 .headerTitle{    
     color: #0d8251;
     font-family: 'Cool Font', sans-serif;
