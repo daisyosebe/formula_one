@@ -9,14 +9,19 @@
     text-align: center;
     color:#ff1493;
     font-family: 'pacifio', sans-serif;
-    font-size: 3rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: 6rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .headerBox {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-color: rgb(1, 67, 61);
   }
   nav {
     margin-top: 10px;
@@ -33,4 +38,61 @@
   .navElement:hover {
     color: #ff0066;
   }
+
+.headerWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+  .navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navLogo {
+    height: 40px;
+    width: auto;
+  }
+
+   .navLinks{
+  display:flex;
+  gap:15px; 
+   }
+
+  .headerBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  .headerContent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .headerTouchImage{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .headerLogo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .page-image{
+    margin-top: 0;
+  }
+
+  .active {
+    color: var(--blue);
+    filter: drop-shadow(3px 3px 2px var(--black)) drop-shadow(-1px -1px 3px var(--pink));
+  }
+  
   

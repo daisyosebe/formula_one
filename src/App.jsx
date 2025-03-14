@@ -23,7 +23,9 @@ export default function App() {
         <Route
           path="/AstonMartin"
           element={
-            <Layout navbarPosition="top" title="Aston Martin" theme="astonmartin">
+            <Layout navbarPosition="top" 
+            title="Aston Martin" 
+            theme="astonmartin">
               <AstonMartinPage />
             </Layout>
           }

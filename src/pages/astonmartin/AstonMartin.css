@@ -3,11 +3,20 @@
     padding: 20px;
 }
 .layout.astonmartin{
-    background-color: #0f7948;
-    color: #92ceb2;
+    background-color: #168250;
+    color: #01381f;
   }
+
+  .headerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pushes the header to the bottom */
+    align-items: center; /* Keeps content centered horizontally */
+    height: 100%; /* Ensure it takes the full height */
+  }
+   
 .headerTitle{    
-    color: #0d8251;
+    color: #08a161;
     font-family: 'Cool Font', sans-serif;
     font-size: 36px;
 }
@@ -16,7 +25,7 @@
     margin-top: 20px;
 }
 
-.image {
+.headerImage {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
