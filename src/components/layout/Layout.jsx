@@ -12,7 +12,8 @@ const pageSettings = {
      pageLogo:astonMartinLogo, 
      navbarPosition: "top", 
      touchImage: true,
-     theme: "aston-theme"
+     theme: "aston-theme",
+     backgroundColor: "#004C3F"
   },
 
   "/": {
@@ -29,17 +30,13 @@ export default function Layout({children}){
   
   const location = useLocation();
   const {
-    title = "Default Title",
-    navbarPosition = "top",
-    pageLogo = null,
-    touchImage = false,
-    theme = ""
-  } = pageSettings[location.pathname] || {};
+    title, navbarPosition, pageLogo, touchImage, backgroundColor } =
+    pageSettings[location.pathname] || {};
 
   // title, navbarPosition, children, theme}) {   console.log("Theme applied:", theme);  // Checks if theme is being applied for each page 
 
   return (
-    <div className= {`layout ${theme}`}> {/*Apply theme as a class*/}
+    <div className="layout" style={{ backgroundColor: backgroundColor || "#fff" }}>
       { <Header 
       title={title} 
       navbarPosition={navbarPosition} 

@@ -3,6 +3,10 @@
   min-height:100vh;
 }
 
+.layout.astonmartin{
+  background-color: rgb(6, 73, 42);
+}
+
 
 /* Styling for the navbar */
 .navbar {
